@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(242, 243, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.signup {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 600px;
+    padding: 90px 75px;
+    border-radius: 30px;
+}
+
+.signup-heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: #2f2f2f;
+    text-align: center;
+}
+
+.signup-label {
+    font-size: 16px;
+    color: rgb(99, 103, 107);
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.signup-input {
+    display: block;
+    width: 100%;
+    background-color: rgb(242, 243, 245);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 14px;
+    outline: none;
+    border-width: 0px;
+}
+
+.signup-submit {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    background-color: rgb(130, 201, 30);
+    font-family: Poppins, sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: rgba(130, 201, 30, 0.5) 0px 5px 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 14px;
+    border: none;
+}
+
+.signup-social {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+    background-color: rgb(76, 111, 244);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: rgba(76, 111, 244, 0.5) 0px 5px 10px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    border-width: 0px;
+    outline: none;
+}
+
+.signup-social-icon {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(76, 111, 244);
+    font-size: 30px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.signup-already {
+    margin-top: 20px;
+}
+
+.signup-login-link {
+    color: rgb(41, 121, 255);
+    text-decoration: none;
+}
